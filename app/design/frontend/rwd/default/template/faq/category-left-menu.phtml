@@ -1,0 +1,27 @@
+<?php $_categories = $this->getCategories(); ?>
+<?php $_count = (count($_categories) > 0) ? count($_categories) : FALSE; ?>
+
+<?php if ($_count): ?>
+    <div class="block block-layered-nav">
+        <div class="block-content ac-category-menu">
+            <dl id="narrow-by-list2">
+                <dt><?php echo $this->__('Faq Categories') ?></dt>
+                <dd>
+                    <ol>
+                        <li>
+                            <a <?php if ($this->isCategoryActive('default')): ?>class="category-current"<?php endif; ?> href="<?php echo Mage::getBaseUrl() . Mage::helper('faq')->getBaseModuleUrlPrefix(); ?>"><?php echo $this->__('Show All') ?></a>
+                        </li>
+                        <?php foreach ($_categories as $_category): ?>                                                
+                            <?php if ($_category->getStatus() == 1): ?>
+                                <li>
+                                    <a href="<?php echo Mage::helper('faq')->getCategoryUrl($_category->getUrl()); ?>" <?php if ($this->isCategoryActive($_category->getUrl())): ?> class="category-current"<?php endif; ?>><?php echo $this->htmlEscape($_category->getName()) ?></a>
+                                </li>
+                            <?php endif; ?>
+                        <?php endforeach ?>
+                    </ol>
+                </dd>
+            </dl>
+            <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+        </div>
+    </div>
+<?php endif; ?>

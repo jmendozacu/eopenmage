@@ -1,0 +1,36 @@
+[07-Jul-2014 05:13:18] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1203] User eopenmar_magento already has more than 'max_user_connections' active connections' in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_magent...', ';1XFd5{~Kf{n', Array)
+#1 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home8/eopenmar/public_ in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[26-Jul-2014 05:00:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'eopenmar_mage'@'localhost' (using password: YES)' in /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_mage', 'mage@123', Array)
+#1 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home/eopenmar/public_html/app/code/core/Mage/Core/M in /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[27-Jul-2014 05:00:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'eopenmar_mage'@'localhost' (using password: YES)' in /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_mage', 'mage@123', Array)
+#1 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home/eopenmar/public_html/app/code/core/Mage/Core/M in /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[28-Jul-2014 05:00:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'eopenmar_mage'@'localhost' (using password: YES)' in /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_mage', 'mage@123', Array)
+#1 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home/eopenmar/public_html/app/code/core/Mage/Core/M in /home/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144

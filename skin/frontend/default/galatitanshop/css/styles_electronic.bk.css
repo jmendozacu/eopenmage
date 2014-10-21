@@ -1,0 +1,14 @@
+.icon { background:url(../images/icons-1.png) no-repeat; }
+.inner_links .list-unstyled a:before,
+.inner_links .list-unstyled li a:hover:before,
+.header-container .toolbar-switch:hover .toolbar-dropdown,
+.block-subscribe button.button span span,
+.block-subscribe button.button:hover span span,
+.view-mode .grid, .view-mode .list,
+.link-wishlist, .add-to-links li a,
+.block-wishlist .link-cart,
+button.button.btn-cart,
+.product-view-detail button.button.btn-cart-detail:before,
+.csslider a.next {
+background-image:url(../images/icons-1.png)
+}

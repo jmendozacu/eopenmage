@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <amemail_adminhtml_index_index>
+        <reference name="head">
+            <action method="addItem"><type>js</type><name>amasty/amemail/admin.js</name><params/></action>
+        </reference>
+    </amemail_adminhtml_index_index>
+</layout>

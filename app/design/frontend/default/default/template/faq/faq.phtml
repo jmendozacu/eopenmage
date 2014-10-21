@@ -1,0 +1,28 @@
+<?php $_helper = Mage::helper('faq'); ?>
+<?php $posts = $this->getPosts(); ?>
+
+<div class="main-content">
+    <h1 class="section-title">
+        <?php echo $this->__('FAQ') ?>
+    </h1>
+
+    <?php if (count($posts)): ?>
+        <div class="section-content section-content-elements-list">
+            <?php foreach ($posts as $post): ?> 
+                <div class="faq-item">
+                    <div class="faq-item-head">
+                        <h4>
+                            <?php echo $this->htmlEscape($post['question']); ?>
+                        </h4>
+                    </div>   
+                    <div class="faq-item-content">  
+                        <?php echo nl2br($post['post_content']); // display content ?>                        
+                    </div>
+                </div>
+            <?php endforeach; ?>            
+           
+        </div>
+    <?php else: ?>
+        <p class="note-msg"><?php echo $this->__('There are no post matching the selection.') ?></p>
+    <?php endif; ?>
+</div>

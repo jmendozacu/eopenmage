@@ -1,0 +1,73 @@
+.ma-new-vertscroller-wrap .jcarousel-container {
+}
+#ma-new-vertscroller-right, #ma-new-vertscroller-left {
+	height: 5555px !important;
+}
+
+.ma-new-vertscroller-wrap  .jcarousel-container-vertical {
+    width: auto !important;
+    height: 345px;
+    padding: 5px 0;
+}
+.ma-new-vertscroller-wrap  .jcarousel-clip {
+    overflow: hidden;
+}
+.ma-new-vertscroller-wrap  .jcarousel-clip-vertical {
+    width: auto !important;
+    height: 345px;
+}
+.ma-new-vertscroller-wrap  .jcarousel-item {
+    width: 100% !important;
+    height: 130px;
+	padding: 0 !important; 
+}
+.ma-new-vertscroller-wrap .product-image {
+	float: left;
+	width: 75px;
+	margin: 0 15px 10px 0;
+}
+.ma-new-vertscroller-wrap .product-name  {
+	margin: 0 0 5px;
+}
+.ma-new-vertscroller-wrap .price-box .old-price,
+.ma-new-vertscroller-wrap .price-box .special-price { display: inline; padding-right: 10px;}
+
+.ma-new-vertscroller-wrap  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.ma-new-vertscroller-wrap .block-content li.item {
+	padding: 0;
+	margin: 10px 0 0;
+}
+.ma-new-vertscroller-wrap .block-content li.first { margin: 0; } 
+
+/**
+ *  Vertical Buttons
+ */
+.ma-new-vertscroller-wrap .jcarousel-next-vertical, 
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: -43px;
+	cursor: pointer;
+}
+.ma-new-vertscroller-wrap .jcarousel-next-vertical {
+	right: 0;
+}
+.ma-new-vertscroller-wrap .jcarousel-next-vertical { background: url(../images/arrow-up.png) no-repeat 50% 50% #E0E0E0;   }
+.ma-new-vertscroller-wrap .jcarousel-prev-vertical { background: url(../images/arrow-down.png) no-repeat 50% 50% #E0E0E0; }
+
+.ma-new-vertscroller-wrap  .jcarousel-next-vertical:hover,
+.ma-new-vertscroller-wrap  .jcarousel-next-vertical:focus {
+
+}
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical {
+	right: 30px;
+}
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical:hover,
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical:focus {
+
+}
+.ma-new-vertscroller-wrap .mt-actions { clear: both; text-align: center;}

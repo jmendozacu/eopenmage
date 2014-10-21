@@ -1,0 +1,12 @@
+.ma-page { width: 990px; margin: 0 auto; background: #fff !important;}
+.contain-size { padding: 0 !important;}
+.header .form-search { width: 200px;}
+.header .form-search input.input-text { width: 145px !important; }
+.products-grid .item-inner { border: 1px solid #ddd; }
+.products-grid .product-info { border-top: 0; left: -1px !important; }
+.product-view .product-img-box .more-views li a { width: 60px; }
+.form-language a { float: left !important; padding: 0 10px 0 !important;}
+.block-reorder .product-name { margin-left:20px !important; }
+.header .links { width: 350px; }
+.block-poll .label { margin-left: 35px !important;}
+.banner-static img { height: 134px !important;}

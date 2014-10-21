@@ -1,0 +1,78 @@
+[29-May-2014 12:56:03 UTC] CSRF state token does not match one provided.
+[29-May-2014 12:56:05 UTC] CSRF state token does not match one provided.
+[30-May-2014 12:54:45 UTC] CSRF state token does not match one provided.
+[30-May-2014 12:54:59 UTC] CSRF state token does not match one provided.
+[30-May-2014 18:44:10 UTC] CSRF state token does not match one provided.
+[30-May-2014 18:44:13 UTC] CSRF state token does not match one provided.
+[30-May-2014 21:06:03 UTC] CSRF state token does not match one provided.
+[30-May-2014 21:06:05 UTC] CSRF state token does not match one provided.
+[31-May-2014 14:26:48 UTC] CSRF state token does not match one provided.
+[31-May-2014 14:26:50 UTC] CSRF state token does not match one provided.
+[31-May-2014 14:26:59 UTC] CSRF state token does not match one provided.
+[31-May-2014 14:26:59 UTC] CSRF state token does not match one provided.
+[01-Jun-2014 03:30:07 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getAssociatedProducts() in /home8/eopenmar/public_html/app/code/community/TBT/Rewards/controllers/Product/View/DistributionController.php on line 60
+[01-Jun-2014 16:45:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1203] User eopenmar_magento already has more than 'max_user_connections' active connections' in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_magent...', ';1XFd5{~Kf{n', Array)
+#1 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home8/eopenmar/public_ in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[01-Jun-2014 18:02:03 UTC] CSRF state token does not match one provided.
+[01-Jun-2014 18:02:05 UTC] CSRF state token does not match one provided.
+[02-Jun-2014 11:04:56 UTC] CSRF state token does not match one provided.
+[02-Jun-2014 11:04:57 UTC] CSRF state token does not match one provided.
+[03-Jun-2014 07:52:38 UTC] CSRF state token does not match one provided.
+[03-Jun-2014 07:52:40 UTC] CSRF state token does not match one provided.
+[03-Jun-2014 10:11:09 UTC] CSRF state token does not match one provided.
+[03-Jun-2014 10:11:11 UTC] CSRF state token does not match one provided.
+[03-Jun-2014 20:19:03 UTC] CSRF state token does not match one provided.
+[03-Jun-2014 20:19:05 UTC] CSRF state token does not match one provided.
+[04-Jun-2014 05:56:47 UTC] CSRF state token does not match one provided.
+[04-Jun-2014 05:56:49 UTC] CSRF state token does not match one provided.
+[05-Jun-2014 17:50:07 UTC] CSRF state token does not match one provided.
+[05-Jun-2014 17:50:08 UTC] CSRF state token does not match one provided.
+[09-Jun-2014 17:54:44 UTC] CSRF state token does not match one provided.
+[09-Jun-2014 17:54:48 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 11:43:44 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 11:43:46 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 19:02:11 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 19:02:14 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 19:50:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1203] User eopenmar_magento already has more than 'max_user_connections' active connections' in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_magent...', ';1XFd5{~Kf{n', Array)
+#1 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home8/eopenmar/public_ in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[11-Jun-2014 16:57:22 UTC] CSRF state token does not match one provided.
+[11-Jun-2014 16:57:24 UTC] CSRF state token does not match one provided.
+[12-Jun-2014 16:57:30 UTC] CSRF state token does not match one provided.
+[12-Jun-2014 16:57:33 UTC] CSRF state token does not match one provided.
+[12-Jun-2014 18:37:23 UTC] CSRF state token does not match one provided.
+[12-Jun-2014 18:37:25 UTC] CSRF state token does not match one provided.
+[12-Jun-2014 22:35:25 UTC] CSRF state token does not match one provided.
+[12-Jun-2014 22:35:27 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 13:26:21 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 13:26:23 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 15:28:51 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 15:28:53 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 17:33:06 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 17:33:08 UTC] CSRF state token does not match one provided.
+[15-Jun-2014 17:23:24 UTC] CSRF state token does not match one provided.
+[15-Jun-2014 17:23:26 UTC] CSRF state token does not match one provided.
+[16-Jun-2014 08:25:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1203] User eopenmar_magento already has more than 'max_user_connections' active connections' in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php:129
+Stack trace:
+#0 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(129): PDO->__construct('mysql:host=loca...', 'eopenmar_magent...', ';1XFd5{~Kf{n', Array)
+#1 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Mysql.php(96): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(320): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Abstract.php(459): Varien_Db_Adapter_Pdo_Mysql->_connect()
+#4 /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SET NAMES utf8', Array)
+#5 /home8/eopenmar/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SET NAMES utf8', Array)
+#6 /home8/eopenmar/public_ in /home8/eopenmar/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 144
+[16-Jun-2014 16:23:18 UTC] CSRF state token does not match one provided.
+[16-Jun-2014 16:23:21 UTC] CSRF state token does not match one provided.

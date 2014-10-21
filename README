@@ -1,0 +1,8 @@
+I noticed catalog rules are not applied correctly anymore since Magento 1.8.0.0.
+It doesn't work anymore when you one of the conditions you use is based on a globally scoped attribute (if you don't have a multisite installation, then every attributes you have are global).
+
+This code is a one line fix, and overrides only one class.
+
+DISCLAIMER: This has only been fully tested with the catalog_product_flat DISABLED. I'll clean the code and make a proper release once I have more tests to confirm the scope of the bug I found.
+
+EDIT : This bug has been fixed as of Magento 1.8.1.0
